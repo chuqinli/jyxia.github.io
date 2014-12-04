@@ -145,12 +145,12 @@ var callback = function(){
 	//*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*	
 	$('#loadmorejobs').on('click touched', function() {
 		var $buttonval = $(this).find('.loadmoretext').text();
-		console.log("more jobs clicked " +  $buttonval);
-		if ($buttonval == 'More') {
-			$(this).find('.loadmoretext').text('Less');
+		// console.log("more jobs clicked " +  $buttonval);
+		if ($buttonval == 'MORE') {
+			$(this).find('.loadmoretext').text('LESS');
 			$(this).find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
 		} else {
-			$(this).find('.loadmoretext').text('More');
+			$(this).find('.loadmoretext').text('MORE');
 			$(this).find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
 		}
 	})

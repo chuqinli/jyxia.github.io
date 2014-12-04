@@ -141,6 +141,7 @@ PHOTO (AVATAR)
 }
 #text-header h1 span{
   color: #F0563D;
+  letter-spacing: -2px;
 }
 #text-header h1 sup{
   opacity: 0.5;
@@ -364,9 +365,9 @@ SKILLS
 *******************************************/
 .item-skills{
   height: 30px;
-  background: #A75265;
+  /*background: #A75265;*/
   /*background: #F0563D;   commented by Jinyue */
-  /*background: #337ab7;*/
+  background: #d9534f;
   color: #fff;
   padding: 5px 10px;
   margin-bottom: 5px;
