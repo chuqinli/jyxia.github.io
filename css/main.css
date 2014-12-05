@@ -327,8 +327,9 @@ CONTACT
 *******************************************/
 .contact-item{
   /*width: 100%;*/ /* commented by Jinyue */
-  width: 40%;
+  /*width: 40%;*/
   float: left;
+  padding-left: 0px;
 }
 .contact-item .icon{
   /*padding: 10px;
@@ -828,7 +829,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 .content-element .txt {
   display: inline-block;
-  bottom: 15px
+  bottom: 15px;
 }
 
 /* Sections 
