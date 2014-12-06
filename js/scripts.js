@@ -1,5 +1,5 @@
-var callback = function(){
-	$('.item-skills').each(function(){
+var callback = function() {
+	$('.item-skills').each(function() {
 		newWidth = $(this).parent().width() * $(this).data('percent');
 		$(this).width(0);
     	$(this).animate({
@@ -8,7 +8,7 @@ var callback = function(){
 	});
 	$('.icons-red').each(function(){
 		height = $(this).height();
-    $(this).animate({
+    	$(this).animate({
         	height: 14,
     	}, 2000);
 	});
