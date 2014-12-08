@@ -99,14 +99,11 @@
           var $player = $('.player');  
           $('.submitBtn').on("click", function() {
             $player.xPlayer({
+                removeXPlayer: true,
                 url: $(".url-input").val()
               // url : "https://www.youtube.com/watch?v=9bZkp7q19f0"
             });
           });
-
-          // $player.xPlayer({
-          //     url : "https://www.youtube.com/watch?v=9bZkp7q19f0"
-          // });
 
           $player.on("videoReady", function () {
               // console.log("video is ready");
