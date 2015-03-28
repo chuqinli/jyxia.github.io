@@ -21,6 +21,7 @@ html, body, #map-canvas {
 }
 
 .radio_btn .ui-state-active { background: #729fcf; }
+.radio_btn .ui-state-default {color: #555555;}
 
 #timeslider {
   position: absolute;
