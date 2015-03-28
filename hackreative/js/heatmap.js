@@ -31,7 +31,7 @@ var generateMap = function () {
 var DataMap = function () {
     var mapOptions = {
         zoom: 10,
-        center: new google.maps.LatLng(35.116753, -80.82477),
+        center: new google.maps.LatLng(35.228958, -80.843817),
         // mapTypeId: google.maps.MapTypeId.SATELLITE
     };
 
@@ -206,6 +206,7 @@ var changeGradient = function() {
   heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
 };
 
+// real js loads 
 $( document ).ready(function() {
     $.ajaxSetup({
         cache: false
