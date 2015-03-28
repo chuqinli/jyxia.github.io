@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heatmaps</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  </head>
+
+  <body>
+    <div id="panel">
+      <!-- <button id="sales_btn"> sales </button>
+      <button id="visits_btn"> visits </button>
+      <button id="quantity_btn"> quantity </button>
+      <button id="salesvisit_btn"> sales/visit </button>      
+      <button id="salequantity_btn"> sales/quantity </button> -->
+      <form>
+        <div id="radio" class="radio_btn">
+          <input type="radio" id="sales_btn" name="radio" checked="checked"><label for="sales_btn">sales</label>
+          <input type="radio" id="visits_btn" name="radio"><label for="visits_btn">visits</label>
+          <input type="radio" id="quantity_btn" name="radio"><label for="quantity_btn">quantity</label>
+          <input type="radio" id="salesvisit_btn" name="radio"><label for="salesvisit_btn">sales/visit</label>
+          <input type="radio" id="salequantity_btn" name="radio"><label for="salequantity_btn">sales/quantity</label>
+        </div>
+      </form>
+
+    </div>
+
+    <div id="map-canvas">
+    </div>
+    <div id="timeslider" style="width:200px;"></div>
+
+    <!-- place js here to load page faster -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=visualization"></script>
+    <script type="text/javascript" src="./js/heatmap.js"></script>
+  </body>
+</html>
