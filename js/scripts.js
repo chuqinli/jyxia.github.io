@@ -19,7 +19,7 @@ var callback = function() {
 		$(this).find('.img-hover').removeClass('bounceOut')
 				.addClass('animated bounceIn show');
 	}, function(){
-		if (getInternetExplorerVersion < 9 ){
+		if (getInternetExplorerVersion < 9 ) {
 			$(this).find('.img-hover').removeClass('bounceIn').addClass('bounceOut'); 
 		} else {
 			$(this).find('.img-hover').removeClass('animated bounceIn show'); 
@@ -127,7 +127,7 @@ var callback = function() {
 	$('#loadmorejobs').on('click touched', function() {
 		var $buttonval = $(this).find('.loadmoretext').text();
 		// console.log("more jobs clicked " +  $buttonval);
-		if ($buttonval == 'MORE') {
+		if ($buttonval === 'MORE') {
 			$(this).find('.loadmoretext').text('LESS');
 			$(this).find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
 		} else {

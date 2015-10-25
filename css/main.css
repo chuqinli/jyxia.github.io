@@ -950,3 +950,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
   color: #000;
   font-weight: bold
 }
+
+.thumbnail img {
+  width: 185px;
+  height: 124px;
+}
+
+.carousel img {
+  max-height: 580px;
+  margin: auto;
+}
