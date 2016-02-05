@@ -2,6 +2,11 @@
   margin-top: 0px;
 }
 
+img {
+  display: none !important;
+  visibility: hidden !important;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
